@@ -1,0 +1,7 @@
+@use '@fontsource/merriweather/scss/mixins' as Merriweather;
+@use '@fontsource/merriweather-sans/scss/mixins' as MerriweatherSans;
+
+@include Merriweather.fontFace($fontName: 'Merriweather', $weight: 400, $display: fallback);
+@include Merriweather.fontFace($fontName: 'Merriweather', $weight: 700, $display: fallback);
+@include MerriweatherSans.fontFace($fontName: 'Merriweather Sans', $weight: 400, $display: fallback);
+@include MerriweatherSans.fontFace($fontName: 'Merriweather Sans', $weight: 700, $display: fallback);
