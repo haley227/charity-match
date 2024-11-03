@@ -1,0 +1,6 @@
+{
+  "singleQuote": true,
+  "semi": true,
+  "experimentalTernaries": true,
+  "printWidth": 120
+}
